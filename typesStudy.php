@@ -12,10 +12,11 @@ $iAmABool = true;
 
 //Will print 1 if true 0 if false to the same line
 echo is_int($iAmAnInt);
-echo is_string($iAmAString)
-echo is_bool($iAmABool)
-echo is_float($iAmAFloat)
+echo is_string($iAmAString);
+echo is_bool($iAmABool);
+echo is_float($iAmAFloat);
 
-defined("A_Constant")
+//Will return 1 if defined and nothing if undefined
+echo defined("A_Constant");
 
 ?> 
